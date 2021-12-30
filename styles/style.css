@@ -39,7 +39,11 @@ div{
   z-index: 1;
  }
 
- 
+ .link{
+   color: #2f80ed;
+   text-decoration: none;
+ }
+
 .header__title{
   display: flex;
   width: 730px;
@@ -61,7 +65,7 @@ div{
 .header__subtitle-text{
   font-size: 18px;
   line-height: 25px;
-   font-weight: normal;
+  font-weight: normal;
 }
 .header__main-illustration{
   position: absolute;
@@ -87,6 +91,48 @@ div{
 
 .content{
   flex: 1;
+}
+
+.description{
+  display: flex;
+  align-items:center;
+  justify-content:center;
+
+}
+
+.two-columns{
+  display:flex;
+  justify-content:space-between;
+  width: 80%;
+  padding: 100px 0;
+}
+
+.two-columns__brief{
+  width: 175px;
+}
+.two-columns__brief-linc{
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+.two-columns__main-text{
+  width: 80%; 
+  min-width: 784px;
+}
+.two-columns__paragraph{
+  padding-bottom: 30px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+.two-columns__span-accent{
+  font-weight: bold;
+}
+
+.two-columns__paragraph:last-child {
+  padding-bottom: 0;
 }
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
