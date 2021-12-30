@@ -21,38 +21,68 @@ div{
   max-height: 756px;
   position: relative;
   display: flex;
-  flex-direction:column;
-  align-items: flex-start;
-  justify-content: center;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  justify-content:center;
+  
+
 
   /* выше установили ограничения для секции */
 }
 
-.logo{
+.logo_place_header{
   position: absolute;
   top: 30px;
   left: 64px;
   width: 183px;
   height: 32px;
   z-index: 1;
-}
+ }
+
+ 
 .header__title{
   display: flex;
   width: 730px;
   margin-left: 64px;
-  
+  }
 
-}
+  .header__title-content{
+    font-size: 102px;
+    line-height: 96px;
+    font-weight: bold;
+  }
 .header__subtitle{
   position: absolute;
   width: 388px;
   bottom: 30px;
   left: 64px;
 }
+
+.header__subtitle-text{
+  font-size: 18px;
+  line-height: 25px;
+   font-weight: normal;
+}
+.header__main-illustration{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  
+}
+.header__main-illustration-boy{
+  width: 765px;
+  height: 608px;
+}
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .heread__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  background-color: #2f80ed;
+  z-index: 2;
 }
 
 .content{
