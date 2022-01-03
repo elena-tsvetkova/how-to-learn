@@ -118,7 +118,7 @@
 }
 
 .two-columns__main-text{
-  width: 80%; 
+  width: 80%;
   min-width: 784px;
 }
 
@@ -256,7 +256,7 @@
   background-color: #1f1f1f;
   color: white;
   padding-top: 90px;
-  overflow: hidden; 
+  overflow: hidden;
   position: relative;
 }
 
