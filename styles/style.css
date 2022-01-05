@@ -318,7 +318,11 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
+  padding-left: 0;
+}
 
+.menu {
+  padding: 0;
 }
 
 .footer__column-links {
@@ -326,9 +330,10 @@
   font-size: 18px;
   font-weight: normal;
   display: flex;
+  list-style-type: none;
 }
 
-.link__footer {
+.footer__link {
   color: white;
   text-decoration: none;
 }
