@@ -331,6 +331,8 @@
   font-weight: normal;
   display: flex;
   list-style-type: none;
+  padding: 0;
+  flex-direction:column;
 }
 
 .footer__link {
@@ -347,3 +349,5 @@
   height: 16px;
   margin-right: 10px;
 }
+
+
