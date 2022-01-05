@@ -41,9 +41,6 @@
   margin: 0;
   margin-left: 64px;
   z-index: 5;
-}
-
-.header__title-content {
   font-size: 102px;
   line-height: 96px;
   font-weight: bold;
@@ -55,9 +52,6 @@
   bottom: 30px;
   left: 64px;
   z-index: 5;
-}
-
-.header__subtitle-text {
   font-size: 18px;
   line-height: 25px;
   font-weight: normal;
@@ -70,10 +64,6 @@
   bottom: 0;
   right: 0;
   z-index: 3;
-
-}
-
-.header__main-illustration-boy {
   width: 765px;
   height: 608px;
 }
@@ -107,10 +97,8 @@
 
 .two-columns__brief {
   width: 175px;
-}
-
-.two-columns__brief-linc {
   font-size: 18px;
+  color: #2f80ed;
   line-height: 1.2;
   font-weight: normal;
   margin: 0;
@@ -147,23 +135,18 @@
   width: 60%;
   display: flex;
   justify-content: center;
+  margin: 0;
   margin-bottom: 20px;
-}
-
-.section-title__centered-block {
   font-size: 60px;
   line-height: 1.15;
   font-weight: bold;
-  margin: 0;
+
 }
 
 .section-subtitle {
   width: 60%;
   display: flex;
   justify-content: center;
-}
-
-.section-subtitle__centered-block {
   font-size: 24px;
   line-height: 34px;
   font-weight: normal;
@@ -208,16 +191,12 @@
   flex-direction: column;
   min-height: 890px;
   background-color: #f2f2f2;
+  padding-top: 100px;
 }
 
 .feynman__title {
   width: 648px;
-  margin-bottom: 70px;
-  margin-top: 100px;
   z-index: 2;
-}
-
-.feynman__title__centered-block {
   font-size: 120px;
   line-height: 1.15;
   font-weight: bold;
@@ -227,13 +206,12 @@
 
 .feynman__subtitle {
   z-index: 1;
-}
-
-.feynman__subtitle__centered-block {
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
   margin: 0%;
+  margin-top: 70px;
+
 }
 
 .feynman__link {
@@ -245,7 +223,7 @@
   font-weight: normal;
 }
 
-.feynman-illustration {
+.feynman__illustration {
   position: absolute;
   bottom: 0%;
   left: 0%;
@@ -263,11 +241,11 @@
   position: relative;
 }
 
-.section-title__centered-block_theme_dark {
+.section-title_theme_dark {
   z-index: 2;
 }
 
-.section-subtitle__centered-block_theme_dark {
+.section-subtitle_theme_dark {
   z-index: 2;
 }
 
@@ -279,7 +257,8 @@
 
 .table__cell_theme_dark {
   width: 200px;
-  margin-right: 0;
+  padding: 0;
+  margin: 0;
   margin-top: 80px;
   list-style-type: none;
 }
