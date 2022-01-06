@@ -48,7 +48,7 @@
 
 .header__subtitle {
   position: absolute;
-  width: 388px;
+  max-width: 388px;
   bottom: 30px;
   left: 64px;
   z-index: 5;
@@ -132,7 +132,7 @@
 }
 
 .section-title {
-  width: 60%;
+  max-width: 60%;
   display: flex;
   justify-content: center;
   margin: 0;
@@ -144,7 +144,7 @@
 }
 
 .section-subtitle {
-  width: 60%;
+  max-width: 60%;
   display: flex;
   justify-content: center;
   font-size: 24px;
@@ -195,7 +195,7 @@
 }
 
 .feynman__title {
-  width: 648px;
+  max-width: 648px;
   z-index: 2;
   font-size: 120px;
   line-height: 1.15;
