@@ -322,6 +322,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
+  padding: 0;
 }
 
 .footer__column-links {
