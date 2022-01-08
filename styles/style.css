@@ -178,6 +178,7 @@
 
 .table__text {
   margin-top: 20px;
+  margin-bottom: 0;
   font-size: 18px;
   line-height: 1.2;
   font-weight: normal;
@@ -269,6 +270,7 @@
 .kaufman__triangle {
   position: absolute;
   background: url('../images/kaufman-triangle.svg');
+  background-size: 877px 877px;
   width: 877px;
   height: 877px;
   top: 0;
@@ -298,6 +300,7 @@
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
+  justify-content:space-between;
 }
 
 .logo_place_footer {
