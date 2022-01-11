@@ -19,6 +19,12 @@
   background-color: #f2f2f2;
   justify-content: center;
   margin-bottom: 100px;
+  overflow: hidden;
+}
+
+.logo:hover {
+  transition: all 0.4s;
+  opacity: 0.4;
 }
 
 .logo_place_header {
@@ -33,6 +39,11 @@
 .link {
   color: #2f80ed;
   text-decoration: none;
+}
+
+.link:hover {
+  transition: all 0.4s;
+  opacity: 0.4;
 }
 
 .header__title {
@@ -68,7 +79,7 @@
   height: 608px;
 }
 
-.heread__square-pic {
+.header__square-pic {
   height: 568px;
   width: 568px;
   position: absolute;
@@ -77,6 +88,17 @@
   background-color: #2f80ed;
   z-index: 2;
 }
+
+.rotation {
+  animation: rotate 20s linear infinite;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 .content {
   flex: 1;
@@ -124,6 +146,61 @@
 .two-columns__paragraph:last-child {
   padding-bottom: 0;
 }
+
+.techniques {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.cards {
+  width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  padding-left: 0;
+}
+
+.cards__item {
+  padding-top: 60px;
+  width: 240px;
+  list-style-type: none;
+  display: block;
+}
+
+.cards__item:last-child {
+  padding-right: 0;
+}
+
+.cards__image {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin: 0 40px 43px 40px;
+}
+
+.cards__title {
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: bold;
+  margin: 0;
+}
+
+.cards__description {
+  margin-top: 16px;
+  margin-bottom: 0;
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: normal;
+}
+
+
+
+
+
 
 .digits {
   display: flex;
@@ -340,6 +417,11 @@
 .footer__link {
   color: white;
   text-decoration: none;
+}
+
+.footer__link:hover {
+  transition: all 0.4s;
+  opacity: 0.4;
 }
 
 .footer__column-links:last-child {
