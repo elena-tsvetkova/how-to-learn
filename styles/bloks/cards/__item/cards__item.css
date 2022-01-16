@@ -1,0 +1,10 @@
+.cards__item {
+  padding-top: 60px;
+  width: 240px;
+  list-style-type: none;
+  display: block;
+}
+
+.cards__item:last-child {
+  padding-right: 0;
+}
