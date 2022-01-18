@@ -48,8 +48,8 @@
 
 @import url(bloks/video/video.css);
 @import url(bloks/video/__iframes/video__iframes\ .css);
-@import url(bloks/video/__iframes/_ted/video__iframes_ted.css);
-@import url(bloks/video/__iframes/_tim/video__iframes_tim.css);
+@import url(bloks/video/__iframes/iframes-ted/video__iframes-ted.css);
+@import url(bloks/video/__iframes/iframes-tim/video__iframes-tim.css);
 
 
 @import url(bloks/oakley/oakley.css);
