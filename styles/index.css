@@ -46,9 +46,11 @@
 @import url(bloks/table/__text/_theme/table__text_theme_dark.css);
 @import url(bloks/table/_theme/table_theme_dark.css);
 
-@import url(bloks/video/__iframes/_ted/video__iframes_ted.css);
-@import url(bloks/video/__iframes/video__iframes\ .css);
 @import url(bloks/video/video.css);
+@import url(bloks/video/__iframes/video__iframes\ .css);
+@import url(bloks/video/__iframes/_ted/video__iframes_ted.css);
+@import url(bloks/video/__iframes/_tim/video__iframes_tim.css);
+
 
 @import url(bloks/oakley/oakley.css);
 
