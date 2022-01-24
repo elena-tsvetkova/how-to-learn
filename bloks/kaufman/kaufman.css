@@ -5,4 +5,8 @@
   padding-bottom: 90px;
   overflow: hidden;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
 }

@@ -48,9 +48,7 @@
 
 @import url(../bloks/video/video.css);
 @import url(../bloks/video/__iframes/video__iframes.css);
-@import url(../bloks/video/__iframes/iframes-ted/video__iframes-ted.css);
-@import url(../bloks/video/__iframes/iframes-tim/video__iframes-tim.css);
-
+@import url(../bloks/video/__iframe/video__iframe.css);
 
 @import url(../bloks/oakley/oakley.css);
 
@@ -87,7 +85,7 @@
 @import url(../bloks/footer/__column-heading/footer__column-heading.css);
 @import url(../bloks/footer/__column-links/footer__column-links.css);
 @import url(../bloks/footer/__columns/footer__columns.css);
-@import url(../bloks/footer/__columns/_content/footer__column_content_copyright.css);
+@import url(../bloks/footer/__column/_content/footer__column_content_copyright.css);
 @import url(../bloks/footer/__link/footer__link.css);
 @import url(../bloks/footer/__menu/footer__menu.css);
 @import url(../bloks/footer/__social-icon/footer__social-icon.css);
