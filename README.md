@@ -15,4 +15,4 @@
 Работа проверялась в браузере Google Chrome, Mozilla Firefox и Яндекс.Браузер. Работа над кодом проводилась в Visual Studio Code.
 
 
-
+https://elena-tsvetkova.github.io/how-to-learn/
